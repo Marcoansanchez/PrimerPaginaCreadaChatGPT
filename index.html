@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alquiler de Autos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#autos">Autos</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <div class="container">
+      <h1>Alquiler de Autos</h1>
+      <p>¡Viaja a tu propio ritmo!</p>
+      <a href="#autos" class="btn">Ver Autos Disponibles</a>
+    </div>
+  </section>
+
+  <section id="autos">
+    <div class="container">
+      <h2>Autos Disponibles</h2>
+      <div class="car-list">
+        <div class="car">
+          <img src="imagenes/Car1.jpg" alt="Auto 1">
+          <h3>Auto 1</h3>
+          <p>Precio: $X por día</p>
+          <a href="#contacto" class="btn">Reservar Ahora</a>
+        </div>
+        <div class="car">
+          <img src="imagenes/Car2.jpg" alt="Auto 2">
+          <h3>Auto 2</h3>
+          <p>Precio: $Y por día</p>
+          <a href="#contacto" class="btn">Reservar Ahora</a>
+        </div>
+        <div class="car">
+          <img src="imagenes/Car3.jpg" alt="Auto 3">
+          <h3>Auto 3</h3>
+          <p>Precio: $Z por día</p>
+          <a href="#contacto" class="btn">Reservar Ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <div class="container">
+      <h2>Nuestros Servicios</h2>
+      <ul>
+        <li>Servicio de atención al cliente las 24 horas</li>
+        <li>Amplia selección de autos disponibles</li>
+        <li>Entrega y recogida en múltiples ubicaciones</li>
+        <li>Seguro incluido en el precio del alquiler</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Para obtener más información o hacer una reserva, contáctanos:</p>
+      <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo Electrónico" required>
+        <textarea placeholder="Mensaje" required></textarea>
+        <button type="submit" class="btn">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Derechos Reservados &copy; 2023 Alquiler de Autos</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
